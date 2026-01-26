@@ -125,9 +125,15 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 
 ## ⚙️ How to Use
 
-1. **Locate the Skill**: Find the skill you need in the table above.
-2. **Read the Guide**: Click the link to open the Markdown file.
-3. **Apply the Knowledge**: Follow the "Procedure" and "Constraints" sections to implement the feature or best practice in your codebase.
+### Usage Flow
+1. Place all skill files inside a dedicated folder (e.g. `.trae/skills/` or `skills/`).
+2. When working with an AI Agent, explicitly reference the relevant skill file.
+3. Instruct the Agent to **follow the Skill procedure strictly**.
+4. Combine multiple skills if the task requires it.
+
+Example instruction:
+> “Apply the procedure defined in `skills/secure-auth-flow.md` before making changes.”
+
 
 ---
 
