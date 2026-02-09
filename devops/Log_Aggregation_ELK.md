@@ -8,18 +8,82 @@ To centralize logs from all services and containers into a single queryable inte
 - When SSH-ing into servers to check logs is not scalable.
 
 ## Procedure
-1.  **Choose Stack**: ELK (Elasticsearch, Logstash, Kibana) or PLG (Promtail, Loki, Grafana).
-2.  **Instrument Application**: Ensure app logs to STDOUT/STDERR in JSON format (using Winston/Bunyan).
-3.  **Ship Logs**:
-    - **Docker**: Configure Docker daemon to use `json-file` driver or send directly to Fluentd.
-    - **Agent**: Run a log collector (Filebeat/Promtail) as a DaemonSet on K8s nodes.
-4.  **Index/Store**: The collector pushes logs to the storage engine (Elasticsearch/Loki).
-5.  **Visualize**: Create dashboards in Kibana/Grafana to filter by `service_name`, `level`, or `trace_id`.
+
+### 1. Application Logging (Node.js with Winston)
+Configure your application to output structured logs (JSON) to standard output.
+
+```javascript
+const winston = require('winston');
+
+const logger = winston.createLogger({
+  level: 'info',
+  format: winston.format.combine(
+    winston.format.timestamp(),
+    winston.format.json() // Essential for log aggregators to parse easily
+  ),
+  defaultMeta: { service: 'user-service' },
+  transports: [
+    new winston.transports.Console(),
+  ],
+});
+
+// Example log
+logger.info('User logged in', { userId: '123', ip: '192.168.1.1' });
+```
+
+### 2. Log Collection (Filebeat for ELK)
+Configure Filebeat to harvest logs from Docker containers.
+
+```yaml
+# filebeat.yml
+filebeat.inputs:
+- type: container
+  paths:
+    - /var/lib/docker/containers/*/*.log
+
+processors:
+- add_docker_metadata: ~
+- decode_json_fields:
+    fields: ["message"]
+    target: "json"
+    overwrite_keys: true
+
+output.elasticsearch:
+  hosts: ["elasticsearch:9200"]
+  index: "filebeat-%{[agent.version]}-%{+yyyy.MM.dd}"
+```
+
+### 3. Log Shipping (Promtail for Loki)
+If using the PLG stack, configure Promtail as a DaemonSet.
+
+```yaml
+# promtail-config.yaml
+server:
+  http_listen_port: 9080
+
+clients:
+  - url: http://loki:3100/loki/api/v1/push
+
+scrape_configs:
+- job_name: kubernetes-pods
+  kubernetes_sd_configs:
+    - role: pod
+  relabel_configs:
+    - source_labels: [__meta_kubernetes_pod_label_app]
+      target_label: app
+```
+
+### 4. Querying and Visualization
+- **Kibana (ELK)**: Use KQL (Kibana Query Language) to search logs.
+  - `json.userId: "123" AND level: "error"`
+- **Grafana (Loki)**: Use LogQL to filter and aggregate.
+  - `{app="user-service"} |= "error" | json`
 
 ## Constraints
-- Rotate logs on disk to prevent filling up storage before shipping.
-- Filter out sensitive data (PII) before shipping.
-- monitor the log volume to manage costs.
+- **Structured Logging**: Always log in JSON format. Parsing unstructured text logs with regex is brittle and CPU-intensive for the aggregator.
+- **Log Rotation**: Ensure the host system rotates local log files (e.g., via Docker's `max-size` and `max-file` options) to prevent disk exhaustion.
+- **PII Redaction**: Never log sensitive information like passwords, credit card numbers, or full PII. Implement redaction in the logging library or the shipping agent.
+- **Volume Management**: Use sampling or level filtering (e.g., only `warn` and `error` in production) if log volume becomes too expensive.
 
 ## Expected Output
 A logging pipeline where application logs appear in the visualization tool within seconds of generation.
