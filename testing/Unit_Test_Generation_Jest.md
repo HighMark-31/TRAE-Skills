@@ -9,19 +9,73 @@ To create robust unit tests for individual functions, classes, or modules to ens
 - When refactoring code to ensure no regressions.
 
 ## Procedure
-1.  **Identify Unit**: Select the function or class to test.
-2.  **Mock Dependencies**: Identify external dependencies (DB, APIs, other modules) and mock them using `jest.mock()` or dependency injection.
-3.  **Write Test Cases**:
-    - **Happy Path**: Test with valid inputs and verify expected output.
-    - **Edge Cases**: Test with empty, null, undefined, or boundary values.
-    - **Error Handling**: Test that the function throws or handles errors correctly when dependencies fail or inputs are invalid.
-4.  **Assert Outcomes**: Use `expect()` to verify return values, function calls (`toHaveBeenCalled`), and state changes.
-5.  **Run and Refine**: Run the test suite and ensure it passes. Improve coverage if needed.
+
+### 1. Setup Jest
+Ensure Jest is configured for your project (e.g., in `package.json` or `jest.config.js`).
+
+```bash
+npm install --save-dev jest ts-jest @types/jest
+```
+
+### 2. Implementation: Basic Unit Test
+Test a pure function.
+
+```typescript
+// math.ts
+export const add = (a: number, b: number) => a + b;
+
+// math.test.ts
+import { add } from './math';
+
+describe('add function', () => {
+  it('should correctly add two positive numbers', () => {
+    expect(add(2, 3)).toBe(5);
+  });
+});
+```
+
+### 3. Implementation: Mocking Dependencies
+Use `jest.mock()` to isolate the unit under test.
+
+```typescript
+// userService.test.ts
+import { getUser } from './userService';
+import { db } from './db';
+
+jest.mock('./db'); // Mock the database module
+
+describe('getUser', () => {
+  it('should return a user if found in DB', async () => {
+    (db.findUser as jest.Mock).mockResolvedValue({ id: 1, name: 'Alice' });
+    
+    const user = await getUser(1);
+    expect(user.name).toBe('Alice');
+    expect(db.findUser).toHaveBeenCalledWith(1);
+  });
+});
+```
+
+### 4. Testing Asynchronous Code
+Use `async/await` in your test cases.
+
+```typescript
+it('should throw error if API fails', async () => {
+  api.getData.mockRejectedValue(new Error('Network error'));
+  await expect(fetchData()).rejects.toThrow('Network error');
+});
+```
+
+### 5. Running with Coverage
+Verify how much of your code is tested.
+
+```bash
+npm test -- --coverage
+```
 
 ## Constraints
-- Unit tests must NOT access the real database or network. Use mocks/stubs.
-- Tests should be independent and order-agnostic.
-- Aim for high branch coverage, not just line coverage.
+- **Isolate**: Never call real databases, file systems, or external APIs.
+- **Speed**: Unit tests should be extremely fast (hundreds per second).
+- **Descriptive Names**: Use clear `describe` and `it` blocks (e.g., `it('should return 400 when email is invalid')`).
 
 ## Expected Output
-A `*.test.ts` or `*.spec.ts` file containing a `describe` block with multiple `it` or `test` cases covering the logic of the target unit.
+A high-coverage test suite that gives developers confidence when refactoring or adding new features.
