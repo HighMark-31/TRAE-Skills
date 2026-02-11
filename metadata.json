@@ -1,0 +1,1688 @@
+[
+  {
+    "id": "AI_Agent_Design_Patterns",
+    "name": "AI Agent Design Patterns",
+    "category": "ai_engineering",
+    "tags": [
+      "ai",
+      "agent",
+      "design",
+      "patterns",
+      "ai_engineering"
+    ]
+  },
+  {
+    "id": "AI_Model_Evaluation",
+    "name": "AI Model Evaluation",
+    "category": "ai_engineering",
+    "tags": [
+      "ai",
+      "model",
+      "evaluation",
+      "ai_engineering"
+    ]
+  },
+  {
+    "id": "Fine_tuning_Basics",
+    "name": "Fine tuning Basics",
+    "category": "ai_engineering",
+    "tags": [
+      "fine",
+      "tuning",
+      "basics",
+      "ai_engineering",
+      "guide"
+    ]
+  },
+  {
+    "id": "LangChain_Basics",
+    "name": "LangChain Basics",
+    "category": "ai_engineering",
+    "tags": [
+      "langchain",
+      "basics",
+      "ai_engineering",
+      "guide"
+    ]
+  },
+  {
+    "id": "Local_LLM_Running_Ollama",
+    "name": "Local LLM Running Ollama",
+    "category": "ai_engineering",
+    "tags": [
+      "local",
+      "llm",
+      "running",
+      "ollama",
+      "ai_engineering"
+    ]
+  },
+  {
+    "id": "OpenAI_API_Integration",
+    "name": "OpenAI API Integration",
+    "category": "ai_engineering",
+    "tags": [
+      "openai",
+      "api",
+      "integration",
+      "ai_engineering"
+    ]
+  },
+  {
+    "id": "Prompt_Engineering_Basics",
+    "name": "Prompt Engineering Basics",
+    "category": "ai_engineering",
+    "tags": [
+      "prompt",
+      "engineering",
+      "basics",
+      "ai_engineering",
+      "guide"
+    ]
+  },
+  {
+    "id": "RAG_System_Architecture",
+    "name": "RAG System Architecture",
+    "category": "ai_engineering",
+    "tags": [
+      "rag",
+      "system",
+      "architecture",
+      "ai_engineering"
+    ]
+  },
+  {
+    "id": "Speech_to_Text_Whisper",
+    "name": "Speech to Text Whisper",
+    "category": "ai_engineering",
+    "tags": [
+      "speech",
+      "to",
+      "text",
+      "whisper",
+      "ai_engineering"
+    ]
+  },
+  {
+    "id": "Vector_Database_Setup",
+    "name": "Vector Database Setup",
+    "category": "ai_engineering",
+    "tags": [
+      "vector",
+      "database",
+      "setup",
+      "ai_engineering"
+    ]
+  },
+  {
+    "id": "Adapter_Pattern_TypeScript",
+    "name": "Adapter Pattern TypeScript",
+    "category": "architecture",
+    "tags": [
+      "adapter",
+      "pattern",
+      "typescript",
+      "architecture"
+    ]
+  },
+  {
+    "id": "Authentication_Strategy_Selection",
+    "name": "Authentication Strategy Selection",
+    "category": "architecture",
+    "tags": [
+      "authentication",
+      "strategy",
+      "selection",
+      "architecture"
+    ]
+  },
+  {
+    "id": "BFF_Pattern_Implementation",
+    "name": "BFF Pattern Implementation",
+    "category": "architecture",
+    "tags": [
+      "bff",
+      "pattern",
+      "implementation",
+      "architecture"
+    ]
+  },
+  {
+    "id": "Clean_Architecture_Node",
+    "name": "Clean Architecture Node",
+    "category": "architecture",
+    "tags": [
+      "clean",
+      "architecture",
+      "node"
+    ]
+  },
+  {
+    "id": "CQRS_Pattern_Implementation",
+    "name": "CQRS Pattern Implementation",
+    "category": "architecture",
+    "tags": [
+      "cqrs",
+      "pattern",
+      "implementation",
+      "architecture"
+    ]
+  },
+  {
+    "id": "Database_Selection_SQL_vs_NoSQL",
+    "name": "Database Selection SQL vs NoSQL",
+    "category": "architecture",
+    "tags": [
+      "database",
+      "selection",
+      "sql",
+      "vs",
+      "nosql",
+      "architecture"
+    ]
+  },
+  {
+    "id": "Domain_Driven_Design_Basics",
+    "name": "Domain Driven Design Basics",
+    "category": "architecture",
+    "tags": [
+      "domain",
+      "driven",
+      "design",
+      "basics",
+      "architecture",
+      "guide"
+    ]
+  },
+  {
+    "id": "Event_Driven_Architecture_Basics",
+    "name": "Event Driven Architecture Basics",
+    "category": "architecture",
+    "tags": [
+      "event",
+      "driven",
+      "architecture",
+      "basics",
+      "guide"
+    ]
+  },
+  {
+    "id": "Frontend_Backend_Communication_Patterns",
+    "name": "Frontend Backend Communication Patterns",
+    "category": "architecture",
+    "tags": [
+      "frontend",
+      "backend",
+      "communication",
+      "patterns",
+      "architecture"
+    ]
+  },
+  {
+    "id": "Microservices_vs_Monolith_Decision",
+    "name": "Microservices vs Monolith Decision",
+    "category": "architecture",
+    "tags": [
+      "microservices",
+      "vs",
+      "monolith",
+      "decision",
+      "architecture"
+    ]
+  },
+  {
+    "id": "Multi_Tenancy_Architecture",
+    "name": "Multi Tenancy Architecture",
+    "category": "architecture",
+    "tags": [
+      "multi",
+      "tenancy",
+      "architecture"
+    ]
+  },
+  {
+    "id": "REST_vs_GraphQL_Selection",
+    "name": "REST vs GraphQL Selection",
+    "category": "architecture",
+    "tags": [
+      "rest",
+      "vs",
+      "graphql",
+      "selection",
+      "architecture",
+      "api"
+    ]
+  },
+  {
+    "id": "Scaling_Strategies_Horizontal_vs_Vertical",
+    "name": "Scaling Strategies Horizontal vs Vertical",
+    "category": "architecture",
+    "tags": [
+      "scaling",
+      "strategies",
+      "horizontal",
+      "vs",
+      "vertical",
+      "architecture"
+    ]
+  },
+  {
+    "id": "Serverless_Architecture_Considerations",
+    "name": "Serverless Architecture Considerations",
+    "category": "architecture",
+    "tags": [
+      "serverless",
+      "architecture",
+      "considerations"
+    ]
+  },
+  {
+    "id": "SSR_vs_CSR_Decision_Matrix",
+    "name": "SSR vs CSR Decision Matrix",
+    "category": "architecture",
+    "tags": [
+      "ssr",
+      "vs",
+      "csr",
+      "decision",
+      "matrix",
+      "architecture"
+    ]
+  },
+  {
+    "id": "Stack_Selection_Criteria",
+    "name": "Stack Selection Criteria",
+    "category": "architecture",
+    "tags": [
+      "stack",
+      "selection",
+      "criteria",
+      "architecture"
+    ]
+  },
+  {
+    "id": "Advanced_RBAC",
+    "name": "Advanced RBAC",
+    "category": "backend",
+    "tags": [
+      "advanced",
+      "rbac",
+      "backend"
+    ]
+  },
+  {
+    "id": "API_REST_Endpoint_Design",
+    "name": "API REST Endpoint Design",
+    "category": "backend",
+    "tags": [
+      "api",
+      "rest",
+      "endpoint",
+      "design",
+      "backend"
+    ]
+  },
+  {
+    "id": "API_Versioning_Strategies",
+    "name": "API Versioning Strategies",
+    "category": "backend",
+    "tags": [
+      "api",
+      "versioning",
+      "strategies",
+      "backend"
+    ]
+  },
+  {
+    "id": "Background_Jobs_BullMQ",
+    "name": "Background Jobs BullMQ",
+    "category": "backend",
+    "tags": [
+      "background",
+      "jobs",
+      "bullmq",
+      "backend"
+    ]
+  },
+  {
+    "id": "Caching_Strategy_Redis",
+    "name": "Caching Strategy Redis",
+    "category": "backend",
+    "tags": [
+      "caching",
+      "strategy",
+      "redis",
+      "backend"
+    ]
+  },
+  {
+    "id": "Database_Locking_Strategies",
+    "name": "Database Locking Strategies",
+    "category": "backend",
+    "tags": [
+      "database",
+      "locking",
+      "strategies",
+      "backend"
+    ]
+  },
+  {
+    "id": "Database_Schema_Migration",
+    "name": "Database Schema Migration",
+    "category": "backend",
+    "tags": [
+      "database",
+      "schema",
+      "migration",
+      "backend"
+    ]
+  },
+  {
+    "id": "Database_Seeding",
+    "name": "Database Seeding",
+    "category": "backend",
+    "tags": [
+      "database",
+      "seeding",
+      "backend"
+    ]
+  },
+  {
+    "id": "Distributed_Transactions_Sagas",
+    "name": "Distributed Transactions Sagas",
+    "category": "backend",
+    "tags": [
+      "distributed",
+      "transactions",
+      "sagas",
+      "backend"
+    ]
+  },
+  {
+    "id": "Elasticsearch_Integration",
+    "name": "Elasticsearch Integration",
+    "category": "backend",
+    "tags": [
+      "elasticsearch",
+      "integration",
+      "backend"
+    ]
+  },
+  {
+    "id": "Error_Handling_Express",
+    "name": "Error Handling Express",
+    "category": "backend",
+    "tags": [
+      "error",
+      "handling",
+      "express",
+      "backend"
+    ]
+  },
+  {
+    "id": "Express_Middleware_Creation",
+    "name": "Express Middleware Creation",
+    "category": "backend",
+    "tags": [
+      "express",
+      "middleware",
+      "creation",
+      "backend"
+    ]
+  },
+  {
+    "id": "Feature_Flag_Implementation",
+    "name": "Feature Flag Implementation",
+    "category": "backend",
+    "tags": [
+      "feature",
+      "flag",
+      "implementation",
+      "backend"
+    ]
+  },
+  {
+    "id": "File_Storage_S3_MinIO",
+    "name": "File Storage S3 MinIO",
+    "category": "backend",
+    "tags": [
+      "file",
+      "storage",
+      "s3",
+      "minio",
+      "backend"
+    ]
+  },
+  {
+    "id": "File_Upload_Handling",
+    "name": "File Upload Handling",
+    "category": "backend",
+    "tags": [
+      "file",
+      "upload",
+      "handling",
+      "backend"
+    ]
+  },
+  {
+    "id": "GraphQL_Schema_Design",
+    "name": "GraphQL Schema Design",
+    "category": "backend",
+    "tags": [
+      "graphql",
+      "schema",
+      "design",
+      "backend",
+      "api"
+    ]
+  },
+  {
+    "id": "gRPC_Service_Implementation",
+    "name": "gRPC Service Implementation",
+    "category": "backend",
+    "tags": [
+      "grpc",
+      "service",
+      "implementation",
+      "backend"
+    ]
+  },
+  {
+    "id": "Health_Check_Endpoint",
+    "name": "Health Check Endpoint",
+    "category": "backend",
+    "tags": [
+      "health",
+      "check",
+      "endpoint",
+      "backend"
+    ]
+  },
+  {
+    "id": "Logger_Configuration_Winston",
+    "name": "Logger Configuration Winston",
+    "category": "backend",
+    "tags": [
+      "logger",
+      "configuration",
+      "winston",
+      "backend"
+    ]
+  },
+  {
+    "id": "Message_Queue_Implementation",
+    "name": "Message Queue Implementation",
+    "category": "backend",
+    "tags": [
+      "message",
+      "queue",
+      "implementation",
+      "backend"
+    ]
+  },
+  {
+    "id": "MFA_Implementation",
+    "name": "MFA Implementation",
+    "category": "backend",
+    "tags": [
+      "mfa",
+      "implementation",
+      "backend"
+    ]
+  },
+  {
+    "id": "Microservice_Communication",
+    "name": "Microservice Communication",
+    "category": "backend",
+    "tags": [
+      "microservice",
+      "communication",
+      "backend"
+    ]
+  },
+  {
+    "id": "MongoDB_Aggregation",
+    "name": "MongoDB Aggregation",
+    "category": "backend",
+    "tags": [
+      "mongodb",
+      "aggregation",
+      "backend"
+    ]
+  },
+  {
+    "id": "Nodejs_Streams",
+    "name": "Nodejs Streams",
+    "category": "backend",
+    "tags": [
+      "nodejs",
+      "streams",
+      "backend"
+    ]
+  },
+  {
+    "id": "OAuth2_Provider_Implementation",
+    "name": "OAuth2 Provider Implementation",
+    "category": "backend",
+    "tags": [
+      "oauth2",
+      "provider",
+      "implementation",
+      "backend"
+    ]
+  },
+  {
+    "id": "Pagination_Implementation",
+    "name": "Pagination Implementation",
+    "category": "backend",
+    "tags": [
+      "pagination",
+      "implementation",
+      "backend"
+    ]
+  },
+  {
+    "id": "PostgreSQL_Indexing",
+    "name": "PostgreSQL Indexing",
+    "category": "backend",
+    "tags": [
+      "postgresql",
+      "indexing",
+      "backend"
+    ]
+  },
+  {
+    "id": "Prisma_Schema_Design",
+    "name": "Prisma Schema Design",
+    "category": "backend",
+    "tags": [
+      "prisma",
+      "schema",
+      "design",
+      "backend"
+    ]
+  },
+  {
+    "id": "Redis_Data_Structures",
+    "name": "Redis Data Structures",
+    "category": "backend",
+    "tags": [
+      "redis",
+      "data",
+      "structures",
+      "backend"
+    ]
+  },
+  {
+    "id": "Refactoring_Legacy_Controller",
+    "name": "Refactoring Legacy Controller",
+    "category": "backend",
+    "tags": [
+      "refactoring",
+      "legacy",
+      "controller",
+      "backend"
+    ]
+  },
+  {
+    "id": "Session_Management_Best_Practices",
+    "name": "Session Management Best Practices",
+    "category": "backend",
+    "tags": [
+      "session",
+      "management",
+      "best",
+      "practices",
+      "backend",
+      "best-practices"
+    ]
+  },
+  {
+    "id": "Soft_Delete_Implementation",
+    "name": "Soft Delete Implementation",
+    "category": "backend",
+    "tags": [
+      "soft",
+      "delete",
+      "implementation",
+      "backend"
+    ]
+  },
+  {
+    "id": "SQL_Query_Optimization",
+    "name": "SQL Query Optimization",
+    "category": "backend",
+    "tags": [
+      "sql",
+      "query",
+      "optimization",
+      "backend"
+    ]
+  },
+  {
+    "id": "Swagger_Documentation",
+    "name": "Swagger Documentation",
+    "category": "backend",
+    "tags": [
+      "swagger",
+      "documentation",
+      "backend"
+    ]
+  },
+  {
+    "id": "Transaction_Management",
+    "name": "Transaction Management",
+    "category": "backend",
+    "tags": [
+      "transaction",
+      "management",
+      "backend"
+    ]
+  },
+  {
+    "id": "TypeORM_Relations",
+    "name": "TypeORM Relations",
+    "category": "backend",
+    "tags": [
+      "typeorm",
+      "relations",
+      "backend"
+    ]
+  },
+  {
+    "id": "Webhooks_Implementation",
+    "name": "Webhooks Implementation",
+    "category": "backend",
+    "tags": [
+      "webhooks",
+      "implementation",
+      "backend"
+    ]
+  },
+  {
+    "id": "WebSocket_Implementation",
+    "name": "WebSocket Implementation",
+    "category": "backend",
+    "tags": [
+      "websocket",
+      "implementation",
+      "backend"
+    ]
+  },
+  {
+    "id": "Branch_Protection_Rules",
+    "name": "Branch Protection Rules",
+    "category": "code_management",
+    "tags": [
+      "branch",
+      "protection",
+      "rules",
+      "code_management"
+    ]
+  },
+  {
+    "id": "Code_Review_Guidelines",
+    "name": "Code Review Guidelines",
+    "category": "code_management",
+    "tags": [
+      "code",
+      "review",
+      "guidelines",
+      "code_management",
+      "guide"
+    ]
+  },
+  {
+    "id": "Dead_Code_Elimination",
+    "name": "Dead Code Elimination",
+    "category": "code_management",
+    "tags": [
+      "dead",
+      "code",
+      "elimination",
+      "code_management"
+    ]
+  },
+  {
+    "id": "ESLint_Prettier_Setup",
+    "name": "ESLint Prettier Setup",
+    "category": "code_management",
+    "tags": [
+      "eslint",
+      "prettier",
+      "setup",
+      "code_management"
+    ]
+  },
+  {
+    "id": "Git_Commit_Convention_Conventional_Commits",
+    "name": "Git Commit Convention Conventional Commits",
+    "category": "code_management",
+    "tags": [
+      "git",
+      "commit",
+      "convention",
+      "conventional",
+      "commits",
+      "code_management"
+    ]
+  },
+  {
+    "id": "Git_Hooks_Husky",
+    "name": "Git Hooks Husky",
+    "category": "code_management",
+    "tags": [
+      "git",
+      "hooks",
+      "husky",
+      "code_management"
+    ]
+  },
+  {
+    "id": "Managing_Technical_Debt",
+    "name": "Managing Technical Debt",
+    "category": "code_management",
+    "tags": [
+      "managing",
+      "technical",
+      "debt",
+      "code_management"
+    ]
+  },
+  {
+    "id": "Monorepo_Setup_Turborepo",
+    "name": "Monorepo Setup Turborepo",
+    "category": "code_management",
+    "tags": [
+      "monorepo",
+      "setup",
+      "turborepo",
+      "code_management"
+    ]
+  },
+  {
+    "id": "Npm_Scripts_Automation",
+    "name": "Npm Scripts Automation",
+    "category": "code_management",
+    "tags": [
+      "npm",
+      "scripts",
+      "automation",
+      "code_management"
+    ]
+  },
+  {
+    "id": "Semantic_Versioning_Strategy",
+    "name": "Semantic Versioning Strategy",
+    "category": "code_management",
+    "tags": [
+      "semantic",
+      "versioning",
+      "strategy",
+      "code_management"
+    ]
+  },
+  {
+    "id": "Ansible_Playbook_Creation",
+    "name": "Ansible Playbook Creation",
+    "category": "devops",
+    "tags": [
+      "ansible",
+      "playbook",
+      "creation",
+      "devops"
+    ]
+  },
+  {
+    "id": "Automated_Database_Backups",
+    "name": "Automated Database Backups",
+    "category": "devops",
+    "tags": [
+      "automated",
+      "database",
+      "backups",
+      "devops"
+    ]
+  },
+  {
+    "id": "AWS_Lambda_Function_Design",
+    "name": "AWS Lambda Function Design",
+    "category": "devops",
+    "tags": [
+      "aws",
+      "lambda",
+      "function",
+      "design",
+      "devops"
+    ]
+  },
+  {
+    "id": "AWS_Secrets_Manager_Integration",
+    "name": "AWS Secrets Manager Integration",
+    "category": "devops",
+    "tags": [
+      "aws",
+      "secrets",
+      "manager",
+      "integration",
+      "devops"
+    ]
+  },
+  {
+    "id": "Azure_Functions_Basics",
+    "name": "Azure Functions Basics",
+    "category": "devops",
+    "tags": [
+      "azure",
+      "functions",
+      "basics",
+      "devops",
+      "guide"
+    ]
+  },
+  {
+    "id": "Blue_Green_Deployment_Strategy",
+    "name": "Blue Green Deployment Strategy",
+    "category": "devops",
+    "tags": [
+      "blue",
+      "green",
+      "deployment",
+      "strategy",
+      "devops"
+    ]
+  },
+  {
+    "id": "Chaos_Engineering_Basics",
+    "name": "Chaos Engineering Basics",
+    "category": "devops",
+    "tags": [
+      "chaos",
+      "engineering",
+      "basics",
+      "devops",
+      "guide"
+    ]
+  },
+  {
+    "id": "CI_Pipeline_GitHub_Actions",
+    "name": "CI Pipeline GitHub Actions",
+    "category": "devops",
+    "tags": [
+      "ci",
+      "pipeline",
+      "github",
+      "actions",
+      "devops"
+    ]
+  },
+  {
+    "id": "Cost_Optimization_Cloud",
+    "name": "Cost Optimization Cloud",
+    "category": "devops",
+    "tags": [
+      "cost",
+      "optimization",
+      "cloud",
+      "devops"
+    ]
+  },
+  {
+    "id": "Dependency_Update_Audit",
+    "name": "Dependency Update Audit",
+    "category": "devops",
+    "tags": [
+      "dependency",
+      "update",
+      "audit",
+      "devops"
+    ]
+  },
+  {
+    "id": "Docker_Containerization_Node",
+    "name": "Docker Containerization Node",
+    "category": "devops",
+    "tags": [
+      "docker",
+      "containerization",
+      "node",
+      "devops"
+    ]
+  },
+  {
+    "id": "Git_Branching_Strategy",
+    "name": "Git Branching Strategy",
+    "category": "devops",
+    "tags": [
+      "git",
+      "branching",
+      "strategy",
+      "devops"
+    ]
+  },
+  {
+    "id": "Google_Cloud_Run_Deployment",
+    "name": "Google Cloud Run Deployment",
+    "category": "devops",
+    "tags": [
+      "google",
+      "cloud",
+      "run",
+      "deployment",
+      "devops"
+    ]
+  },
+  {
+    "id": "Infrastructure_as_Code_Terraform",
+    "name": "Infrastructure as Code Terraform",
+    "category": "devops",
+    "tags": [
+      "infrastructure",
+      "as",
+      "code",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "Kubernetes_Deployment_Manifests",
+    "name": "Kubernetes Deployment Manifests",
+    "category": "devops",
+    "tags": [
+      "kubernetes",
+      "deployment",
+      "manifests",
+      "devops"
+    ]
+  },
+  {
+    "id": "Log_Aggregation_ELK",
+    "name": "Log Aggregation ELK",
+    "category": "devops",
+    "tags": [
+      "log",
+      "aggregation",
+      "elk",
+      "devops"
+    ]
+  },
+  {
+    "id": "Monitoring_with_Datadog",
+    "name": "Monitoring with Datadog",
+    "category": "devops",
+    "tags": [
+      "monitoring",
+      "with",
+      "datadog",
+      "devops"
+    ]
+  },
+  {
+    "id": "Nginx_Reverse_Proxy_Setup",
+    "name": "Nginx Reverse Proxy Setup",
+    "category": "devops",
+    "tags": [
+      "nginx",
+      "reverse",
+      "proxy",
+      "setup",
+      "devops"
+    ]
+  },
+  {
+    "id": "Prometheus_Grafana_Monitoring",
+    "name": "Prometheus Grafana Monitoring",
+    "category": "devops",
+    "tags": [
+      "prometheus",
+      "grafana",
+      "monitoring",
+      "devops"
+    ]
+  },
+  {
+    "id": "Sentry_Error_Tracking",
+    "name": "Sentry Error Tracking",
+    "category": "devops",
+    "tags": [
+      "sentry",
+      "error",
+      "tracking",
+      "devops"
+    ]
+  },
+  {
+    "id": "Serverless_Framework_Setup",
+    "name": "Serverless Framework Setup",
+    "category": "devops",
+    "tags": [
+      "serverless",
+      "framework",
+      "setup",
+      "devops"
+    ]
+  },
+  {
+    "id": "SSL_TLS_Certbot_Setup",
+    "name": "SSL TLS Certbot Setup",
+    "category": "devops",
+    "tags": [
+      "ssl",
+      "tls",
+      "certbot",
+      "setup",
+      "devops"
+    ]
+  },
+  {
+    "id": "Terraform_Advanced",
+    "name": "Terraform Advanced",
+    "category": "devops",
+    "tags": [
+      "terraform",
+      "advanced",
+      "devops"
+    ]
+  },
+  {
+    "id": "API_Documentation_Best_Practices",
+    "name": "API Documentation Best Practices",
+    "category": "documentation",
+    "tags": [
+      "api",
+      "documentation",
+      "best",
+      "practices",
+      "best-practices"
+    ]
+  },
+  {
+    "id": "Architectural_Decision_Records_ADR",
+    "name": "Architectural Decision Records ADR",
+    "category": "documentation",
+    "tags": [
+      "architectural",
+      "decision",
+      "records",
+      "adr",
+      "documentation"
+    ]
+  },
+  {
+    "id": "Changelog_Maintenance",
+    "name": "Changelog Maintenance",
+    "category": "documentation",
+    "tags": [
+      "changelog",
+      "maintenance",
+      "documentation"
+    ]
+  },
+  {
+    "id": "Code_Comments_Best_Practices",
+    "name": "Code Comments Best Practices",
+    "category": "documentation",
+    "tags": [
+      "code",
+      "comments",
+      "best",
+      "practices",
+      "documentation",
+      "best-practices"
+    ]
+  },
+  {
+    "id": "Contributing_Guidelines_CONTRIBUTING",
+    "name": "Contributing Guidelines CONTRIBUTING",
+    "category": "documentation",
+    "tags": [
+      "contributing",
+      "guidelines",
+      "documentation",
+      "guide"
+    ]
+  },
+  {
+    "id": "Project_Onboarding_Guide",
+    "name": "Project Onboarding Guide",
+    "category": "documentation",
+    "tags": [
+      "project",
+      "onboarding",
+      "guide",
+      "documentation"
+    ]
+  },
+  {
+    "id": "User_Manual_Creation",
+    "name": "User Manual Creation",
+    "category": "documentation",
+    "tags": [
+      "user",
+      "manual",
+      "creation",
+      "documentation"
+    ]
+  },
+  {
+    "id": "Writing_Effective_README",
+    "name": "Writing Effective README",
+    "category": "documentation",
+    "tags": [
+      "writing",
+      "effective",
+      "readme",
+      "documentation"
+    ]
+  },
+  {
+    "id": "Accessibility_Audit",
+    "name": "Accessibility Audit",
+    "category": "frontend",
+    "tags": [
+      "accessibility",
+      "audit",
+      "frontend"
+    ]
+  },
+  {
+    "id": "API_Data_Fetching_TanStack",
+    "name": "API Data Fetching TanStack",
+    "category": "frontend",
+    "tags": [
+      "api",
+      "data",
+      "fetching",
+      "tanstack",
+      "frontend"
+    ]
+  },
+  {
+    "id": "Browser_Storage",
+    "name": "Browser Storage",
+    "category": "frontend",
+    "tags": [
+      "browser",
+      "storage",
+      "frontend"
+    ]
+  },
+  {
+    "id": "Canvas_Threejs_Basics",
+    "name": "Canvas Threejs Basics",
+    "category": "frontend",
+    "tags": [
+      "canvas",
+      "threejs",
+      "basics",
+      "frontend",
+      "guide"
+    ]
+  },
+  {
+    "id": "CSS_Grid_vs_Flexbox",
+    "name": "CSS Grid vs Flexbox",
+    "category": "frontend",
+    "tags": [
+      "css",
+      "grid",
+      "vs",
+      "flexbox",
+      "frontend"
+    ]
+  },
+  {
+    "id": "Custom_React_Hook_Creation",
+    "name": "Custom React Hook Creation",
+    "category": "frontend",
+    "tags": [
+      "custom",
+      "react",
+      "hook",
+      "creation",
+      "frontend"
+    ]
+  },
+  {
+    "id": "Dark_Mode_Implementation",
+    "name": "Dark Mode Implementation",
+    "category": "frontend",
+    "tags": [
+      "dark",
+      "mode",
+      "implementation",
+      "frontend"
+    ]
+  },
+  {
+    "id": "Form_Handling_ReactHookForm",
+    "name": "Form Handling ReactHookForm",
+    "category": "frontend",
+    "tags": [
+      "form",
+      "handling",
+      "reacthookform",
+      "frontend"
+    ]
+  },
+  {
+    "id": "Frontend_Error_Boundary",
+    "name": "Frontend Error Boundary",
+    "category": "frontend",
+    "tags": [
+      "frontend",
+      "error",
+      "boundary"
+    ]
+  },
+  {
+    "id": "Global_State_Management_Redux",
+    "name": "Global State Management Redux",
+    "category": "frontend",
+    "tags": [
+      "global",
+      "state",
+      "management",
+      "redux",
+      "frontend"
+    ]
+  },
+  {
+    "id": "Handling_Large_Lists_Virtualization",
+    "name": "Handling Large Lists Virtualization",
+    "category": "frontend",
+    "tags": [
+      "handling",
+      "large",
+      "lists",
+      "virtualization",
+      "frontend"
+    ]
+  },
+  {
+    "id": "Internationalization_i18n",
+    "name": "Internationalization i18n",
+    "category": "frontend",
+    "tags": [
+      "internationalization",
+      "i18n",
+      "frontend"
+    ]
+  },
+  {
+    "id": "Mobile_First_Design",
+    "name": "Mobile First Design",
+    "category": "frontend",
+    "tags": [
+      "mobile",
+      "first",
+      "design",
+      "frontend"
+    ]
+  },
+  {
+    "id": "Nextjs_App_Router",
+    "name": "Nextjs App Router",
+    "category": "frontend",
+    "tags": [
+      "nextjs",
+      "app",
+      "router",
+      "frontend"
+    ]
+  },
+  {
+    "id": "PWA_Implementation",
+    "name": "PWA Implementation",
+    "category": "frontend",
+    "tags": [
+      "pwa",
+      "implementation",
+      "frontend"
+    ]
+  },
+  {
+    "id": "React_Component_Optimization",
+    "name": "React Component Optimization",
+    "category": "frontend",
+    "tags": [
+      "react",
+      "component",
+      "optimization",
+      "frontend"
+    ]
+  },
+  {
+    "id": "React_Context_vs_Zustand",
+    "name": "React Context vs Zustand",
+    "category": "frontend",
+    "tags": [
+      "react",
+      "context",
+      "vs",
+      "zustand",
+      "frontend"
+    ]
+  },
+  {
+    "id": "React_Testing_Library",
+    "name": "React Testing Library",
+    "category": "frontend",
+    "tags": [
+      "react",
+      "testing",
+      "library",
+      "frontend"
+    ]
+  },
+  {
+    "id": "Responsive_UI_Design_Tailwind",
+    "name": "Responsive UI Design Tailwind",
+    "category": "frontend",
+    "tags": [
+      "responsive",
+      "ui",
+      "design",
+      "tailwind",
+      "frontend"
+    ]
+  },
+  {
+    "id": "Route_Protection_React_Router",
+    "name": "Route Protection React Router",
+    "category": "frontend",
+    "tags": [
+      "route",
+      "protection",
+      "react",
+      "router",
+      "frontend"
+    ]
+  },
+  {
+    "id": "Storybook_Component_Documentation",
+    "name": "Storybook Component Documentation",
+    "category": "frontend",
+    "tags": [
+      "storybook",
+      "component",
+      "documentation",
+      "frontend"
+    ]
+  },
+  {
+    "id": "SVG_Animation_Techniques",
+    "name": "SVG Animation Techniques",
+    "category": "frontend",
+    "tags": [
+      "svg",
+      "animation",
+      "techniques",
+      "frontend"
+    ]
+  },
+  {
+    "id": "Web_Vitals_Optimization",
+    "name": "Web Vitals Optimization",
+    "category": "frontend",
+    "tags": [
+      "web",
+      "vitals",
+      "optimization",
+      "frontend"
+    ]
+  },
+  {
+    "id": "Web_Workers",
+    "name": "Web Workers",
+    "category": "frontend",
+    "tags": [
+      "web",
+      "workers",
+      "frontend"
+    ]
+  },
+  {
+    "id": "App_Store_Deployment_Guide",
+    "name": "App Store Deployment Guide",
+    "category": "mobile",
+    "tags": [
+      "app",
+      "store",
+      "deployment",
+      "guide",
+      "mobile"
+    ]
+  },
+  {
+    "id": "Mobile_Device_Features",
+    "name": "Mobile Device Features",
+    "category": "mobile",
+    "tags": [
+      "mobile",
+      "device",
+      "features"
+    ]
+  },
+  {
+    "id": "Mobile_UI_Styling_NativeWind",
+    "name": "Mobile UI Styling NativeWind",
+    "category": "mobile",
+    "tags": [
+      "mobile",
+      "ui",
+      "styling",
+      "nativewind"
+    ]
+  },
+  {
+    "id": "Offline_First_Mobile_Architecture",
+    "name": "Offline First Mobile Architecture",
+    "category": "mobile",
+    "tags": [
+      "offline",
+      "first",
+      "mobile",
+      "architecture"
+    ]
+  },
+  {
+    "id": "Push_Notifications_Setup",
+    "name": "Push Notifications Setup",
+    "category": "mobile",
+    "tags": [
+      "push",
+      "notifications",
+      "setup",
+      "mobile"
+    ]
+  },
+  {
+    "id": "React_Native_Navigation",
+    "name": "React Native Navigation",
+    "category": "mobile",
+    "tags": [
+      "react",
+      "native",
+      "navigation",
+      "mobile"
+    ]
+  },
+  {
+    "id": "React_Native_Reanimated",
+    "name": "React Native Reanimated",
+    "category": "mobile",
+    "tags": [
+      "react",
+      "native",
+      "reanimated",
+      "mobile"
+    ]
+  },
+  {
+    "id": "React_Native_Setup_Expo",
+    "name": "React Native Setup Expo",
+    "category": "mobile",
+    "tags": [
+      "react",
+      "native",
+      "setup",
+      "expo",
+      "mobile"
+    ]
+  },
+  {
+    "id": "Code_Review_Security",
+    "name": "Code Review Security",
+    "category": "security",
+    "tags": [
+      "code",
+      "review",
+      "security"
+    ]
+  },
+  {
+    "id": "Content_Security_Policy_CSP",
+    "name": "Content Security Policy CSP",
+    "category": "security",
+    "tags": [
+      "content",
+      "security",
+      "policy",
+      "csp"
+    ]
+  },
+  {
+    "id": "CSRF_Protection_Strategies",
+    "name": "CSRF Protection Strategies",
+    "category": "security",
+    "tags": [
+      "csrf",
+      "protection",
+      "strategies",
+      "security"
+    ]
+  },
+  {
+    "id": "Dependency_Vulnerability_Scanning",
+    "name": "Dependency Vulnerability Scanning",
+    "category": "security",
+    "tags": [
+      "dependency",
+      "vulnerability",
+      "scanning",
+      "security"
+    ]
+  },
+  {
+    "id": "Input_Validation_Zod",
+    "name": "Input Validation Zod",
+    "category": "security",
+    "tags": [
+      "input",
+      "validation",
+      "zod",
+      "security"
+    ]
+  },
+  {
+    "id": "JWT_Authentication",
+    "name": "JWT Authentication",
+    "category": "security",
+    "tags": [
+      "jwt",
+      "authentication",
+      "security"
+    ]
+  },
+  {
+    "id": "OWASP_Top_10_Mitigation",
+    "name": "OWASP Top 10 Mitigation",
+    "category": "security",
+    "tags": [
+      "owasp",
+      "top",
+      "10",
+      "mitigation",
+      "security"
+    ]
+  },
+  {
+    "id": "Rate_Limiting_Redis",
+    "name": "Rate Limiting Redis",
+    "category": "security",
+    "tags": [
+      "rate",
+      "limiting",
+      "redis",
+      "security"
+    ]
+  },
+  {
+    "id": "RBAC_Implementation",
+    "name": "RBAC Implementation",
+    "category": "security",
+    "tags": [
+      "rbac",
+      "implementation",
+      "security"
+    ]
+  },
+  {
+    "id": "Secret_Scanning_CI_CD",
+    "name": "Secret Scanning CI CD",
+    "category": "security",
+    "tags": [
+      "secret",
+      "scanning",
+      "ci",
+      "cd",
+      "security"
+    ]
+  },
+  {
+    "id": "Secure_Env_Var_Handling",
+    "name": "Secure Env Var Handling",
+    "category": "security",
+    "tags": [
+      "secure",
+      "env",
+      "var",
+      "handling",
+      "security"
+    ]
+  },
+  {
+    "id": "XSS_Prevention_Guide",
+    "name": "XSS Prevention Guide",
+    "category": "security",
+    "tags": [
+      "xss",
+      "prevention",
+      "guide",
+      "security"
+    ]
+  },
+  {
+    "id": "E2E_Testing_Playwright",
+    "name": "E2E Testing Playwright",
+    "category": "testing",
+    "tags": [
+      "e2e",
+      "testing",
+      "playwright"
+    ]
+  },
+  {
+    "id": "Unit_Test_Generation_Jest",
+    "name": "Unit Test Generation Jest",
+    "category": "testing",
+    "tags": [
+      "unit",
+      "test",
+      "generation",
+      "jest",
+      "testing"
+    ]
+  }
+]
