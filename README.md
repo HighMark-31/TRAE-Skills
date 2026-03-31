@@ -6,9 +6,6 @@
 
 # [TRAE](https://www.trae.ai/) Skills Collection
 
-> **⚠️ Avviso Importante:** Le repository di TRAE verranno purtroppo aggiornate meno di frequente. Attualmente sono molto occupato e, a livello personale, sto cercando un impiego (se conoscete qualcuno o se siete un'azienda che sta cercando personale) per potermi permettere una nuova casa. Finché non avrò raggiunto questa stabilità, il tempo da dedicare a GitHub sarà limitato e le repo TRAE verranno aggiornate purtroppo molto meno. Vi ringrazio per la comprensione! ❤️
-
-
 **_The Largest, Most Complete, and Popular Collection of TRAE Skills._**
 
 A powerful collection of **expert-level TRAE Skills**, designed to standardize and elevate every stage of modern software development.
@@ -42,36 +39,36 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 
 | Category | Skill Name | Info | View |
 | :--- | :--- | :--- | :--- |
-| **🖥️ Frontend** | Accessibility Audit | [ℹ️](./frontend/Accessibility_Audit.md) | [👆 View](./frontend/Accessibility_Audit.md) |
+| **🔹 ️ Frontend** | Accessibility Audit | [ℹ️](./frontend/Accessibility_Audit.md) | [👆 View](./frontend/Accessibility_Audit.md) |
 |  | API Data Fetching (TanStack) | [ℹ️](./frontend/API_Data_Fetching_TanStack.md) | [👆 View](./frontend/API_Data_Fetching_TanStack.md) |
-| **🏗️ Architecture** | Authentication Strategy Selection | [ℹ️](./architecture/Authentication_Strategy_Selection.md) | [👆 View](./architecture/Authentication_Strategy_Selection.md) |
+| **🔹 ️ Architecture** | Authentication Strategy Selection | [ℹ️](./architecture/Authentication_Strategy_Selection.md) | [👆 View](./architecture/Authentication_Strategy_Selection.md) |
 |  | BFF Pattern Implementation | [ℹ️](./architecture/BFF_Pattern_Implementation.md) | [👆 View](./architecture/BFF_Pattern_Implementation.md) |
-| **🛡️ Security** | Code Review Security Checklist | [ℹ️](./security/Code_Review_Security.md) | [👆 View](./security/Code_Review_Security.md) |
-| **🖥️ Frontend** | Custom React Hook Creation | [ℹ️](./frontend/Custom_React_Hook_Creation.md) | [👆 View](./frontend/Custom_React_Hook_Creation.md) |
-| **🏗️ Architecture** | Database Selection (SQL vs NoSQL) | [ℹ️](./architecture/Database_Selection_SQL_vs_NoSQL.md) | [👆 View](./architecture/Database_Selection_SQL_vs_NoSQL.md) |
-| **🧪 Testing** | E2E Testing (Playwright) | [ℹ️](./testing/E2E_Testing_Playwright.md) | [👆 View](./testing/E2E_Testing_Playwright.md) |
-| **🏗️ Architecture** | Event Driven Architecture | [ℹ️](./architecture/Event_Driven_Architecture_Basics.md) | [👆 View](./architecture/Event_Driven_Architecture_Basics.md) |
-| **🖥️ Frontend** | Form Handling (ReactHookForm) | [ℹ️](./frontend/Form_Handling_ReactHookForm.md) | [👆 View](./frontend/Form_Handling_ReactHookForm.md) |
+| **🔹 ️ Security** | Code Review Security Checklist | [ℹ️](./security/Code_Review_Security.md) | [👆 View](./security/Code_Review_Security.md) |
+| **🔹 ️ Frontend** | Custom React Hook Creation | [ℹ️](./frontend/Custom_React_Hook_Creation.md) | [👆 View](./frontend/Custom_React_Hook_Creation.md) |
+| **🔹 ️ Architecture** | Database Selection (SQL vs NoSQL) | [ℹ️](./architecture/Database_Selection_SQL_vs_NoSQL.md) | [👆 View](./architecture/Database_Selection_SQL_vs_NoSQL.md) |
+| **🔹 🧪 Testing** | E2E Testing (Playwright) | [ℹ️](./testing/E2E_Testing_Playwright.md) | [👆 View](./testing/E2E_Testing_Playwright.md) |
+| **🔹 ️ Architecture** | Event Driven Architecture | [ℹ️](./architecture/Event_Driven_Architecture_Basics.md) | [👆 View](./architecture/Event_Driven_Architecture_Basics.md) |
+| **🔹 ️ Frontend** | Form Handling (ReactHookForm) | [ℹ️](./frontend/Form_Handling_ReactHookForm.md) | [👆 View](./frontend/Form_Handling_ReactHookForm.md) |
 |  | Frontend Error Boundary | [ℹ️](./frontend/Frontend_Error_Boundary.md) | [👆 View](./frontend/Frontend_Error_Boundary.md) |
-| **🏗️ Architecture** | Frontend-Backend Communication | [ℹ️](./architecture/Frontend_Backend_Communication_Patterns.md) | [👆 View](./architecture/Frontend_Backend_Communication_Patterns.md) |
-| **🖥️ Frontend** | Global State (Redux Toolkit) | [ℹ️](./frontend/Global_State_Management_Redux.md) | [👆 View](./frontend/Global_State_Management_Redux.md) |
-| **🛡️ Security** | Input Validation (Zod) | [ℹ️](./security/Input_Validation_Zod.md) | [👆 View](./security/Input_Validation_Zod.md) |
-| **🖥️ Frontend** | Internationalization (i18n) | [ℹ️](./frontend/Internationalization_i18n.md) | [👆 View](./frontend/Internationalization_i18n.md) |
-| **🛡️ Security** | JWT Authentication | [ℹ️](./security/JWT_Authentication.md) | [👆 View](./security/JWT_Authentication.md) |
-| **🏗️ Architecture** | Microservices vs Monolith | [ℹ️](./architecture/Microservices_vs_Monolith_Decision.md) | [👆 View](./architecture/Microservices_vs_Monolith_Decision.md) |
+| **🔹 ️ Architecture** | Frontend-Backend Communication | [ℹ️](./architecture/Frontend_Backend_Communication_Patterns.md) | [👆 View](./architecture/Frontend_Backend_Communication_Patterns.md) |
+| **🔹 ️ Frontend** | Global State (Redux Toolkit) | [ℹ️](./frontend/Global_State_Management_Redux.md) | [👆 View](./frontend/Global_State_Management_Redux.md) |
+| **🔹 ️ Security** | Input Validation (Zod) | [ℹ️](./security/Input_Validation_Zod.md) | [👆 View](./security/Input_Validation_Zod.md) |
+| **🔹 ️ Frontend** | Internationalization (i18n) | [ℹ️](./frontend/Internationalization_i18n.md) | [👆 View](./frontend/Internationalization_i18n.md) |
+| **🔹 ️ Security** | JWT Authentication | [ℹ️](./security/JWT_Authentication.md) | [👆 View](./security/JWT_Authentication.md) |
+| **🔹 ️ Architecture** | Microservices vs Monolith | [ℹ️](./architecture/Microservices_vs_Monolith_Decision.md) | [👆 View](./architecture/Microservices_vs_Monolith_Decision.md) |
 |  | Multi-Tenancy Architecture | [ℹ️](./architecture/Multi_Tenancy_Architecture.md) | [👆 View](./architecture/Multi_Tenancy_Architecture.md) |
-| **🛡️ Security** | Rate Limiting (Redis) | [ℹ️](./security/Rate_Limiting_Redis.md) | [👆 View](./security/Rate_Limiting_Redis.md) |
+| **🔹 ️ Security** | Rate Limiting (Redis) | [ℹ️](./security/Rate_Limiting_Redis.md) | [👆 View](./security/Rate_Limiting_Redis.md) |
 |  | RBAC Implementation | [ℹ️](./security/RBAC_Implementation.md) | [👆 View](./security/RBAC_Implementation.md) |
-| **🖥️ Frontend** | React Component Optimization | [ℹ️](./frontend/React_Component_Optimization.md) | [👆 View](./frontend/React_Component_Optimization.md) |
+| **🔹 ️ Frontend** | React Component Optimization | [ℹ️](./frontend/React_Component_Optimization.md) | [👆 View](./frontend/React_Component_Optimization.md) |
 |  | Responsive UI (Tailwind) | [ℹ️](./frontend/Responsive_UI_Design_Tailwind.md) | [👆 View](./frontend/Responsive_UI_Design_Tailwind.md) |
-| **🏗️ Architecture** | REST vs GraphQL Selection | [ℹ️](./architecture/REST_vs_GraphQL_Selection.md) | [👆 View](./architecture/REST_vs_GraphQL_Selection.md) |
-| **🖥️ Frontend** | Route Protection (React Router) | [ℹ️](./frontend/Route_Protection_React_Router.md) | [👆 View](./frontend/Route_Protection_React_Router.md) |
-| **🏗️ Architecture** | Scaling Strategies | [ℹ️](./architecture/Scaling_Strategies_Horizontal_vs_Vertical.md) | [👆 View](./architecture/Scaling_Strategies_Horizontal_vs_Vertical.md) |
-| **🛡️ Security** | Secure Env Var Handling | [ℹ️](./security/Secure_Env_Var_Handling.md) | [👆 View](./security/Secure_Env_Var_Handling.md) |
-| **🏗️ Architecture** | Serverless Architecture | [ℹ️](./architecture/Serverless_Architecture_Considerations.md) | [👆 View](./architecture/Serverless_Architecture_Considerations.md) |
+| **🔹 ️ Architecture** | REST vs GraphQL Selection | [ℹ️](./architecture/REST_vs_GraphQL_Selection.md) | [👆 View](./architecture/REST_vs_GraphQL_Selection.md) |
+| **🔹 ️ Frontend** | Route Protection (React Router) | [ℹ️](./frontend/Route_Protection_React_Router.md) | [👆 View](./frontend/Route_Protection_React_Router.md) |
+| **🔹 ️ Architecture** | Scaling Strategies | [ℹ️](./architecture/Scaling_Strategies_Horizontal_vs_Vertical.md) | [👆 View](./architecture/Scaling_Strategies_Horizontal_vs_Vertical.md) |
+| **🔹 ️ Security** | Secure Env Var Handling | [ℹ️](./security/Secure_Env_Var_Handling.md) | [👆 View](./security/Secure_Env_Var_Handling.md) |
+| **🔹 ️ Architecture** | Serverless Architecture | [ℹ️](./architecture/Serverless_Architecture_Considerations.md) | [👆 View](./architecture/Serverless_Architecture_Considerations.md) |
 |  | SSR vs CSR Decision | [ℹ️](./architecture/SSR_vs_CSR_Decision_Matrix.md) | [👆 View](./architecture/SSR_vs_CSR_Decision_Matrix.md) |
 |  | Stack Selection Criteria | [ℹ️](./architecture/Stack_Selection_Criteria.md) | [👆 View](./architecture/Stack_Selection_Criteria.md) |
-| **🧪 Testing** | Unit Test Generation (Jest) | [ℹ️](./testing/Unit_Test_Generation_Jest.md) | [👆 View](./testing/Unit_Test_Generation_Jest.md) |
+| **🔹 🧪 Testing** | Unit Test Generation (Jest) | [ℹ️](./testing/Unit_Test_Generation_Jest.md) | [👆 View](./testing/Unit_Test_Generation_Jest.md) |
 | **💻 Backend** | API REST Endpoint Design | [ℹ️](./backend/API_REST_Endpoint_Design.md) | [👆 View](./backend/API_REST_Endpoint_Design.md) |
 |  | API Versioning Strategies | [ℹ️](./backend/API_Versioning_Strategies.md) | [👆 View](./backend/API_Versioning_Strategies.md) |
 |  | Background Jobs with BullMQ | [ℹ️](./backend/Background_Jobs_BullMQ.md) | [👆 View](./backend/Background_Jobs_BullMQ.md) |
@@ -162,32 +159,14 @@ Perfect for developers, engineers, and teams seeking **consistency, quality, and
 |  | Secret Scanning in CI/CD | [ℹ️](./security/Secret_Scanning_CI_CD.md) | [👆 View](./security/Secret_Scanning_CI_CD.md) |
 |  | XSS Prevention Guide | [ℹ️](./security/XSS_Prevention_Guide.md) | [👆 View](./security/XSS_Prevention_Guide.md) |
 | **🤖 AI Engineering** | AI Agent Design Patterns | [ℹ️](./ai_engineering/AI_Agent_Design_Patterns.md) | [👆 View](./ai_engineering/AI_Agent_Design_Patterns.md) |
-|  | AI Experiment Tracking | [ℹ️](./ai_engineering/AI_Experiment_Tracking.md) | [👆 View](./ai_engineering/AI_Experiment_Tracking.md) |
 |  | AI Model Evaluation | [ℹ️](./ai_engineering/AI_Model_Evaluation.md) | [👆 View](./ai_engineering/AI_Model_Evaluation.md) |
-|  | AI Model Serving | [ℹ️](./ai_engineering/AI_Model_Serving.md) | [👆 View](./ai_engineering/AI_Model_Serving.md) |
-|  | AI Monitoring & Observability | [ℹ️](./ai_engineering/AI_Monitoring_Observability.md) | [👆 View](./ai_engineering/AI_Monitoring_Observability.md) |
-|  | AI Pipeline Automation | [ℹ️](./ai_engineering/AI_Pipeline_Automation.md) | [👆 View](./ai_engineering/AI_Pipeline_Automation.md) |
-|  | AI Safety & Ethics | [ℹ️](./ai_engineering/AI_Safety_Ethics.md) | [👆 View](./ai_engineering/AI_Safety_Ethics.md) |
-|  | AI Testing & Evaluation | [ℹ️](./ai_engineering/AI_Testing_Evaluation.md) | [👆 View](./ai_engineering/AI_Testing_Evaluation.md) |
-|  | Chain of Thought Prompting | [ℹ️](./ai_engineering/Chain_of_Thought_Prompting.md) | [👆 View](./ai_engineering/Chain_of_Thought_Prompting.md) |
-|  | Embedding Techniques | [ℹ️](./ai_engineering/Embedding_Techniques.md) | [👆 View](./ai_engineering/Embedding_Techniques.md) |
-|  | Federated Learning | [ℹ️](./ai_engineering/Federated_Learning.md) | [👆 View](./ai_engineering/Federated_Learning.md) |
-|  | Fine-Tuning Custom Models | [ℹ️](./ai_engineering/Fine_Tuning_Custom_Models.md) | [👆 View](./ai_engineering/Fine_Tuning_Custom_Models.md) |
 |  | Fine-tuning Basics | [ℹ️](./ai_engineering/Fine_tuning_Basics.md) | [👆 View](./ai_engineering/Fine_tuning_Basics.md) |
-|  | Function Calling | [ℹ️](./ai_engineering/Function_Calling.md) | [👆 View](./ai_engineering/Function_Calling.md) |
-|  | LLM Caching Strategies | [ℹ️](./ai_engineering/LLM_Caching_Strategies.md) | [👆 View](./ai_engineering/LLM_Caching_Strategies.md) |
-|  | LLM Operations | [ℹ️](./ai_engineering/LLM_Operations.md) | [👆 View](./ai_engineering/LLM_Operations.md) |
 |  | LangChain Basics | [ℹ️](./ai_engineering/LangChain_Basics.md) | [👆 View](./ai_engineering/LangChain_Basics.md) |
 |  | Local LLM Running (Ollama) | [ℹ️](./ai_engineering/Local_LLM_Running_Ollama.md) | [👆 View](./ai_engineering/Local_LLM_Running_Ollama.md) |
-|  | MultiModal AI | [ℹ️](./ai_engineering/MultiModal_AI.md) | [👆 View](./ai_engineering/MultiModal_AI.md) |
 |  | OpenAI API Integration | [ℹ️](./ai_engineering/OpenAI_API_Integration.md) | [👆 View](./ai_engineering/OpenAI_API_Integration.md) |
 |  | Prompt Engineering Basics | [ℹ️](./ai_engineering/Prompt_Engineering_Basics.md) | [👆 View](./ai_engineering/Prompt_Engineering_Basics.md) |
 |  | RAG System Architecture | [ℹ️](./ai_engineering/RAG_System_Architecture.md) | [👆 View](./ai_engineering/RAG_System_Architecture.md) |
-|  | Reinforcement Learning Basics | [ℹ️](./ai_engineering/Reinforcement_Learning_Basics.md) | [👆 View](./ai_engineering/Reinforcement_Learning_Basics.md) |
 |  | Speech-to-Text Implementation (Whisper) | [ℹ️](./ai_engineering/Speech_to_Text_Whisper.md) | [👆 View](./ai_engineering/Speech_to_Text_Whisper.md) |
-|  | Stream Responses | [ℹ️](./ai_engineering/Stream_Responses.md) | [👆 View](./ai_engineering/Stream_Responses.md) |
-|  | Structured Output Parsing | [ℹ️](./ai_engineering/Structured_Output_Parsing.md) | [👆 View](./ai_engineering/Structured_Output_Parsing.md) |
-|  | Token Optimization | [ℹ️](./ai_engineering/Token_Optimization.md) | [👆 View](./ai_engineering/Token_Optimization.md) |
 |  | Vector Database Setup | [ℹ️](./ai_engineering/Vector_Database_Setup.md) | [👆 View](./ai_engineering/Vector_Database_Setup.md) |
 | **🏗️ Architecture** | Adapter Pattern in TypeScript | [ℹ️](./architecture/Adapter_Pattern_TypeScript.md) | [👆 View](./architecture/Adapter_Pattern_TypeScript.md) |
 |  | Clean Architecture in Node.js | [ℹ️](./architecture/Clean_Architecture_Node.md) | [👆 View](./architecture/Clean_Architecture_Node.md) |
